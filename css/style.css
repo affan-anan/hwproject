@@ -1,0 +1,115 @@
+/* ALL COMMOMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+} 
+.clr{
+    clear: both;
+}
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+    line-height: .8;
+}
+/* ALL COMMOMON CSS END */
+ 
+
+/* heading_start */
+#heading{
+position: fixed;
+top: 0%;
+width: 100%;
+z-index: 33;
+}
+.logo{
+    padding-top: 30px;
+    float: left;
+    width: 270px;
+}
+.menu{
+    float: left;
+    width: 900px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+   color: #fff;
+   line-height: 120px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   padding-left: 30px;
+   transition: all linear .4s;
+}
+.menu ul li a:hover{
+    color: #c7b299;
+}
+
+/* heading_end */
+/* banner_start */
+#bannerw{
+
+background: url(../images/banner.jpg);
+background-repeat:no-repeat ;
+background-position: center;
+background size: cover;
+}
+.banner_overly{
+    padding: 380px 0;
+    background: rgba(17, 17, 17, 0.7);
+}
+/* banner_end */
+/* banner_conent */
+.banner_conent{
+    text-align: center;
+}
+.banner_conent h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+
+}
+.banner_conent h1{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom:20px;
+}
+.banner_conent p{
+    color: #fff;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0 286px;
+    margin-bottom: 50px;
+    line-height: 24px;
+}
+.banner_conent a{
+    color: #fff;
+    font-family:   'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 21px 37px 18px 37px;
+    border-bottom: 3px solid #736357;
+    background: #998675;
+    border-radius: 5px;
+}
+/* banner_conent */
